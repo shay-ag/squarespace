@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: Arial;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.nav-part1 img {
+    height: 80px;
+}
+
+.nav-part2{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-part3{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav-part3 button {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+    padding: 1.5rem 2rem;
+    color: #000;
+    background-color: #fff;
+}
+
+.homepage {
+    margin-top: 10vh;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.homepage h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.homepage span {
+    font-size: 2rem;
+    background-color: #7e3836;
+    padding: 2rem 4rem;
+    border-radius: 50px;
+    margin: 2rem 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.homepage .img1{
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+.homepage .img2{
+    height: 200px;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+.homepage .img3{
+    height: 300px;
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+}
+
+.homepage .img4{
+    height: 300px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+
+.scroll {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: absolute;
+    left: 45%;
+    bottom: 8%;
+    line-height: 20px;
+}
